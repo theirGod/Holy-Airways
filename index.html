@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holy Of Holies Airways</title>
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+    <header class="heading">
+        <div class="heading-container">
+            <img class="head-imgage" src="./Location in Ghana/cover-for-places-to-visit-in-ghana.jpg" alt="logo">
+                <div id="head"><h1 class="head-letters">Holy Of Holies Airways</h1>
+                                <h5 class="head-description">Discover beautiful places in Ghana with Holy Of Holies.</h5>
+                </div>
+         </div>
+
+        <nav class="navigation-btn">
+            <ul class="btn">
+                <a class="Home" href="#Home">Home</a>
+                <a class="Destinations" href="#Destinatons">Destinations</a>
+                <a class="About" href="#About">About Us</a>
+                <a class="Contact" href="#Contact">Contact</a>
+                <a class="Booking" href="#Book">Book Me</a>
+
+            </ul>
+        </nav>
+
+    </header>
+        <hr>
+    <main class="main-contents">
+    
+        <div class="popular-destinations"><marquee behavior="alternate">Popular Destinantions</marquee></div>
+    <div class="main-container">
+        <div class="Destination-item">
+            <img src="./Location in Ghana/Aburi.jpeg" alt="Accra">
+            <h2>Accra</h2>
+            <p>Explore the <span>capital city</span> of Ghana</p>
+        </div>
+
+        <div class="Destination-item">
+            <img src="./Location in Ghana/Kumasi.jpeg" alt="Kumasi">
+            <h2>Kumasi</h2>
+            <p>Discover the <span>Golden</span> state of Ghana.</p>
+        </div>
+
+        <div class="Destination-item">
+            <img src="./Location in Ghana/images (3).jpeg" alt="Tamale">
+            <h2>Tamale</h2>
+            <p>Learn about the most <span>interesting</span>part of Ghana.</p>
+        </div>
+
+        <div class="Destination-item">
+            <img src="./Location in Ghana/Afajato.jpeg" alt="Afajato">
+            <h2>Afajato</h2>
+            <p>Enjoy the beautiful moutanious area of Ghana</p>
+        </div>
+
+        <div class="Destination-item">
+            <img src="./Location in Ghana/cover-for-places-to-visit-in-ghana.jpg" alt="Akosombo">
+            <h2>Akosombo</h2>
+            <p>Feel the serene environment and most condusive place here Ghana</p>    
+        </div>
+    </div>
+    </main>
+    <section id="About">
+        <h2>About Us</h2>
+        <p>Holy Of Holies is dedicated to providing the best travel experience. We offer flight to top destinations around the Ghana, ensuring comfort and safety to our passengers.</p>
+    </section>
+    
+    <section id="Book">
+        <h2>Book Me</h2>
+        <form id="booking-form">
+            <label for="destination">Choose Destination</label>
+            <select id="destination" name="destination">
+                <option value="Accra">Accra</option>
+                <option value="Kumasi">Kumasi</option>
+                <option value="Tamale">Tamale</option>
+                <option value="Afajato">Afajato</option>
+                <option value="Akosombo">Akosombo</option>
+            </select>
+            <label for="date">Select Date:</label>
+            <input type="date" id="date" name="date">
+            <label for="Passengers">Number of Passengers:</label>
+            <input type="number" id="passengers" name="passengers" min="1" max="10">
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+    <script src="index.js"></script>
+</body>
+<footer>&copy; 2024 Holy Of Holies Airways. All rights reserved.</footer>
+</html>
